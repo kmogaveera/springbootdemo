@@ -42,6 +42,7 @@ class CustomerdalApplicationTests {
 	void deleteCustomer() {
 		Customer customer = crepo.findById(2l).get();
 		crepo.delete(customer);
+		System.out.println("Test");
 				
 	}
 
